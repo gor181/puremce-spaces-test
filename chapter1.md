@@ -3,37 +3,22 @@ title: Test
 description: Test
 
 ---
-## Sample exercise
+## Pure mce with spaces at the end of possible answers and feedbacks
 
 ```yaml
-type: NormalExercise
-lang: python
-xp: 100
+type: PureMultipleChoiceExercise
+key: daa248de01
+xp: 50
 skills: 2
-key: 477bcd76a7
 ```
 
 
-`@instructions`
+`@possible_answers`
+- [this is a correct one] 
+- this is incorrect
 
 `@hint`
 
-`@pre_exercise_code`
-```{python}
-
-```
-
-`@sample_code`
-```{python}
-
-```
-
-`@solution`
-```{python}
-
-```
-
-`@sct`
-```{python}
-
-```
+`@feedbacks`
+- good 
+- bad 
